@@ -89,43 +89,45 @@ export const Blogs = [
 ]
 
 export const dailyPrices = [
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Pant" , price:"200"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
+  {cloth:"Shirt" , price:"209"},
+  {cloth:"Pant" , price:"209"},
+  {cloth:"Dress" , price:"419"},
+  {cloth:"Jump Suit" ,price:"450"},
+  {cloth:"Trouser" , price:"269"},
+  {cloth:"Kids Dress" , price:"249"},
+  {cloth:"Skirt" , price:"209"},
   
 ]
 export const ethenicPrices = [
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
+  {cloth:"Salwar" , price:"199"},
+  {cloth:"Plazo" , price:"109"},
+  {cloth:"Saree" , price:"109"},
+  {cloth:"Lehnga" , price:"109"},
+  {cloth:"Sherwani" , price:"109"},
+  {cloth:"Kurta" , price:"109"},
+  {cloth:"Legging" , price:"109"},
 
 ]
 export const woolenPrices = [
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
+  {cloth:"Sweat Shirt" , price:"109"},
+  {cloth:"Sweater" , price:"109"},
+  {cloth:"Waist Coat" , price:"109"},
+  {cloth:"Jacket" , price:"109"},
+  {cloth:"Shawl" , price:"109"},
+  {cloth:"Overcoat" , price:"109"},
+  {cloth:"Hoodie" , price:"109"},
 
 
 ]
 export const householdPrices = [
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
-  {cloth:"Shirt" , price:"109"},
+  {cloth:"Wash+Press" , price:"99/kg"},
+  {cloth:"Organic Laundry" , price:"120/kg"},
+  {cloth:"Woolen Wash" , price:"134/kg"},
+  {cloth:"Curtain Wash" , price:"100/kg"},
+  {cloth:"Premium Laundry" , price:"150/kg"},
+  {cloth:"" , price:""},
+  {cloth:"" , price:""},
+  {cloth:"" , price:""},
+  {cloth:"" , price:""},
  
 ]
