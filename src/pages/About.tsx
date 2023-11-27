@@ -7,8 +7,11 @@ const About = () => {
   return (
     <>
       <Navbar />
+      <div className="h-[20vh] w-full bg-indigo-600 mt-20 flex justify-center items-center" ><Typography variant='h3' color={'white'} fontWeight={600} >Prices</Typography></div>
+      
       <Box   height={"100%"}>
         <Box
+          
           mt={10}
           width={"100%"}
          height={"100%"}
@@ -16,6 +19,7 @@ const About = () => {
           justifyContent="space-evenly"
           flexDirection={"row"}
         >
+          
           <Box sx={{ width: "22%" , hieght:"100%" }}>
             <Paper sx={{ bgcolor: "rgb(79 70 229)" }}>
              <Typography
@@ -56,7 +60,7 @@ const About = () => {
               </Box>)}
             </Paper>
           </Box>
-          <Box sx={{ width: "22%" , hieght:"100%" }}>
+          <Box sx={{ width: "22%" , height:"100%" }}>
             <Paper sx={{ bgcolor: "rgb(79 70 229)" }}>
              <Typography
                 fontWeight={400}
@@ -140,7 +144,7 @@ const About = () => {
                 textAlign={"left"}
                 py={1}  px = {2}
               >
-                HouseHold
+                Packages
               </Typography>
               <Box width={"100%"} height={"1px"} sx={{ bgcolor: "white" }} />
               {householdPrices?.map((item)=> <Box
@@ -169,13 +173,34 @@ const About = () => {
             </Paper>
           </Box>
           
-        </Box>
+        </Box><br /><br />
         
-        <Box p={2} mt={4}>
-        <Typography variant='h5' color={'Black'} fontWeight={500} > Lorem ipsum, dolor sit amet consectetur adipisicing elit</Typography>
-        <Typography   fontWeight={400} > Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores veniam exercitationem ex dolor nihil ut natus eligendi, id, voluptatem modi sapiente labore voluptate illum debitis culpa numquam eum tempore! Est culpa reprehenderit rerum. Commodi nihil dolor enim numquam fuga voluptatem distinctio error aperiam. Ea corporis veritatis quia omnis? Fugiat, asperiores. Minus harum doloremque ipsum in voluptates amet nisi ratione nesciunt dolor, suscipit doloribus facilis et officia quo nihil perferendis provident cumque? Repudiandae laudantium alias voluptate iste, eligendi delectus perspiciatis adipisci magni aliquam beatae aspernatur accusamus maiores? Dolorum pariatur atque cumque tempora sed quisquam. Cupiditate consectetur itaque, maiores quod nisi voluptates, sequi delectus pariatur officiis minima eligendi. Sequi, aut? Dolorum explicabo quasi temporibus quam animi, laborum voluptates ad nam neque accusamus dolorem porro eaque. Tenetur laudantium iure autem voluptatem dolore! Voluptatum id neque animi nemo sit recusandae maxime provident non odio, deserunt aliquid et ad, eius sunt perferendis vitae autem laudantium delectus. Vitae consectetur nulla deserunt quo officia recusandae iusto ex mollitia, voluptatibus corporis optio? Repellat, vero error? Ipsam harum blanditiis vel nam fugiat aspernatur fugit! Ullam, omnis pariatur exercitationem fugit sequi enim illum laudantium necessitatibus illo eum ipsum inventore doloribus corporis ut ipsa blanditiis error iusto fugiat placeat dolor nobis quae. Nostrum, consequatur laboriosam sed voluptates, similique quisquam libero itaque sint ipsa pariatur dolorem nulla ab atque, error dolorum cumque. Cum at, omnis architecto neque quo laboriosam, consequuntur reiciendis voluptates eos, incidunt accusantium porro est error dolore laborum quae dicta autem. Ipsam tempora esse voluptates placeat ipsum voluptatum accusamus.</Typography>
+        <Box p={2} mt={1}>
+        <Typography variant='h5' color={'Black'} fontWeight={500} > How it Works!!</Typography><br />
+        <Typography   fontWeight={400} > Select the most suitable premium laundry package as per your preference.
+
+Choose from our wide range of prices and packages that are Pocket Friendly as well as Premium.
+
+Whether you have a laundry basket full of casuals and daily wear clothes or just a special piece of clothing that's meant for special occasions- we'll have it laundered for you.
+
+Schedule a convenient Pick-Up and Drop. You don't have to keep following up, making calls, or taking time off your busy schedule to pick up the laundry. Schedule a pick-up and drop-off with us.
+ While we take care of your clothes and fabrics, you can sit back and relax.</Typography>
+        </Box><hr />
+        <Box p={2} mt={1}>
+        <Typography variant='h5' color={'Black'} fontWeight={500} > Laundry with DhobiLite vs. Laundry at Home</Typography><br />
+        <Typography   fontWeight={400} > What makes DhobiLite unique? We use the best-in-class machinery and sophisticated equipment to stream press your clothes and fabrics. While ironing your clothes at home doesn't guarantee you wrinkle-free and crease-free clothes, DhobiLite guarantees perfect laundry, steam press, and folding services. We ensure that only skin-friendly and fabric-friendly detergents are used and that the original and smooth texture of your clothes is retained. Additionally, we take care of the brightness and crispness of your fabrics.
+
+Hence, choose what's best for your clothes. Be it regular casuals, formals, or special occasion dresses, let us do the laundry on your behalf. DhobiLite is the best solution for perfect, professional, and convenient laundry services.</Typography>
+        </Box><hr />
+        <Box p={2} mt={1}>
+        <Typography variant='h5' color={'Black'} fontWeight={500} > Doing Your Laundry at Home Vs. Obtaining the Services of A Dry Cleaning Service</Typography><br />
+        <Typography   fontWeight={400} > Traditionally, people used to do their laundry at home, and that too, by hand as sophisticated cleaning equipment like washing machines and dryers was not heard of at that time. Be it doing the laundry by hand or using washing equipment like a washing machine, doing your laundry at home is easier said than done. It is not just about washing your clothes and keeping them clean. There is a long process that entails. Doing your laundry at home would include washing, drying, ironing, and folding your clothes- sounds like a long and tiring process, right?
+
+On the other hand, instead of doing your laundry at home, you have the option of obtaining the service of a dry-cleaning service that would do your laundry and even go the additional step of dry cleaning your clothes. Of course, getting a dry-cleaning service to do your laundry is much easier, convenient, and requires minimal time and effort from your end. But the positives don't just end there. During dry-cleaning, a stringent cleaning process is followed, which eliminates even the stubbornest of stains and odor from your clothes and keeps it as fresh as a daisy. Dry-cleaning is also a great way to keep your clothes clean and tidy while retaining the original texture of the fabric, preventing shrinkage or damage to your clothes, and reviving the brightens and appearance of your outfits.
+
+So what do you think is best- Doing your laundry at home or getting a dry-cleaning service to do it on your behalf? Of course, obtaining the services of a dry-cleaning service is undoubtedly the best and easiest way to go about things.</Typography>
         </Box>
-      </Box>
+      </Box><br />
       <Footer/>
     </>
   );
