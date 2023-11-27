@@ -1,19 +1,19 @@
 
 import { createBrowserRouter } from "react-router-dom";
 
-import AppRouter from "./AppRouter";
+// import AppRouter from "./AppRouter";
 import AuthRouter from "./AuthRouter";
-import Login from "../pages/Login";
+// import Login from "../pages/Login";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import Services from "../pages/Services";
-import Error from "../pages/Error";
+// import Error from "../pages/Error";
 import About from "../pages/About";
 
 
 export const ROUTES = {
-  LOGIN: "/",
-  HOME:"/home",
+  // LOGIN: "/",
+  HOME:"/",
   SERVICES:"/serices",
   CONTACT:'/contact',
   PRICE:'/price'
@@ -22,15 +22,15 @@ export const ROUTES = {
 };
 
 const navigationRouter = createBrowserRouter([
-  {
-    path: ROUTES.LOGIN,
-    element: (
-      <AppRouter>
-       <Login />
-    </AppRouter>
-    ),
-    errorElement: <Error />,
-  },
+  // {
+  //   path: ROUTES.LOGIN,
+  //   element: (
+  //     <AppRouter>
+  //      <Login />
+  //   </AppRouter>
+  //   ),
+  //   errorElement: <Error />,
+  // },
   {
     path: ROUTES.HOME,
     element: (
