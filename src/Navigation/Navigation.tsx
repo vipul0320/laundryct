@@ -12,8 +12,8 @@ import About from "../pages/About";
 
 
 export const ROUTES = {
-  // LOGIN: "/",
-  HOME:"/",
+  LOGIN: "/",
+  HOME:"/home",
   SERVICES:"/serices",
   CONTACT:'/contact',
   PRICE:'/price'
@@ -22,15 +22,15 @@ export const ROUTES = {
 };
 
 const navigationRouter = createBrowserRouter([
-  // {
-  //   path: ROUTES.LOGIN,
-  //   element: (
-  //     <AppRouter>
-  //      <Login />
-  //   </AppRouter>
-  //   ),
-  //   errorElement: <Error />,
-  // },
+  {
+    path: ROUTES.LOGIN,
+    element: (
+      <AppRouter>
+       <Login />
+    </AppRouter>
+    ),
+    errorElement: <Error />,
+  },
   {
     path: ROUTES.HOME,
     element: (
