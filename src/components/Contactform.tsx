@@ -1,5 +1,7 @@
 import { useForm, SubmitHandler } from "react-hook-form";
 import axios from "axios";
+import { useState } from "react";
+import { Alert, Snackbar } from "@mui/material";
 
 interface data {
   name: string;
@@ -8,6 +10,7 @@ interface data {
   clothes: string;
 }
 const Contactform = () => {
+  const[snackbaropen , setsnackbaropen] = useState(false);
   const { register, handleSubmit } = useForm<data>();
 
    const BOT_TOKEN = "6843833141:AAHrIJyFBEM3bqHVEfdVE-C0xIGd0eh0SZQ"
@@ -34,6 +37,7 @@ const Contactform = () => {
   
       console.log(response.data);
       console.log(res.data);
+      setsnackbaropen(true);
     } catch (error) {
       console.error('Error sending message:', error);
     }
@@ -96,6 +100,11 @@ const Contactform = () => {
           value="Schedule pickup"
         />
       </form>
+      <Snackbar open={snackbaropen} autoHideDuration={6000} onClose={()=>setsnackbaropen(false)}>
+        <Alert onClose={()=>{setsnackbaropen(false)}} severity="success" sx={{ width: '100%' }}>
+          Pickup Scheduled
+        </Alert>
+      </Snackbar>
     </>
   );
 };
